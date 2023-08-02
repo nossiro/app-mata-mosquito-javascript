@@ -1,7 +1,7 @@
 var altura = 0
 var largura = 0
 var vidas = 1
-var tempo = 15
+var tempo = 20
 
 var criaMosquitoTempo = 1500
 
@@ -48,7 +48,7 @@ function posicaoRandomica() {
     if (document.getElementById('mosquito')) {
         document.getElementById('mosquito').remove()
         
-        if (vidas > 3) {
+        if (vidas > 2) {
             window.location.href = 'fim_de_jogo.html'
         }
         else {
